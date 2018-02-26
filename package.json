@@ -1,0 +1,43 @@
+{
+	"name": "morphist",
+	"version": "0.0.0",
+	"description": "Tiny dom morphing library",
+	"license": "MIT",
+	"repository": "herber/vxv",
+	"author": {
+		"name": "Tobias Herber",
+		"email": "tobihrbr@gmail.com",
+		"url": "tobihrbr.com"
+	},
+	"source": "lib/index.js",
+	"main": "dist/vxv.js",
+	"module": "dist/vxv.m.js",
+	"browser": "dist/vxv.umd.js",
+	"engines": {
+		"node": ">=0"
+	},
+	"scripts": {
+		"test": "formatted && jest",
+		"build": "microbundle --output ./dist",
+		"dev": "microbundle watch --output ./dist"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"dom",
+		"diff",
+		"morph",
+		"vdom",
+		"virtual",
+		"morphdom"
+	],
+	"dependencies": {},
+	"devDependencies": {
+		"bel": "^5.1.7",
+		"formatted": "^1.0.0",
+		"jest": "^22.4.2",
+		"jsdom": "^11.6.2",
+		"microbundle": "^0.4.4"
+	}
+}
