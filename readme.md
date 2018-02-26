@@ -1,4 +1,4 @@
-# Morphist
+# _[WIP]_ Morphist
 
 > Tiny dom morphing library
 
