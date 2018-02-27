@@ -1,6 +1,8 @@
 # _[WIP]_ Morphist
 
-> Tiny dom morphing library
+<p align="center">A tiny dom morphing library</p>
+
+__Morphist__ diffs read dom nodes. We don't use a vdom, because the dom is really efficient at everything we need.
 
 ## Install
 
@@ -19,6 +21,11 @@ document.body.appendChild(tree);
 
 morphist(tree, html`<div>hello world</div>`);
 ```
+
+## Alternatives
+
+- [Nanomorph](https://github.com/choojs/nanomorph)
+- [Morphdom](https://github.com/patrick-steele-idem/morphdom)
 
 ## License
 
